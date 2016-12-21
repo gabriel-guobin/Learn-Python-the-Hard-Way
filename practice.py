@@ -1,13 +1,19 @@
-# now we could try something new
+def ready():
+	print"hello world"
+	
+ready()
 
-there_is_a_vairable = " we could see \n how this works \n can it work this way?"
+from sys import argv
+script, c, d = argv
 
-print there_is_a_vairable
+def blue(a,b):
+	print"Your precious is %s and %s" % (a,b)
 
-print """
-    I can say what ever I want to say
-    pretty cooooooooool!
-    I can learn what ever I want to learn toooooo!
+little = "apple"
+white = "snow white"
+
+blue("pie","books")
+blue(little, white)
+blue(c,d)
 
 
-"""
